@@ -3,7 +3,7 @@
 <h1 align="center">Sistem Pertanian Terpadu (Smart Farming System)</h1>
 
 <p align="center">
-    <a href="https://github.com/URL-repositori-anda/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+    <a href="https://github.com/RidhoChaerullah/UAS-ParaPetani/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
     <a href="#"><img src="https://img.shields.io/badge/PHP-8.4.1-777BB4?style=flat-square&logo=php" alt="PHP Version"></a>
     <a href="#"><img src="https://img.shields.io/badge/Laravel-12.21.0-FF2D20?style=flat-square&logo=laravel" alt="Laravel Version"></a>
     <a href="#"><img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Version"></a>
@@ -23,24 +23,8 @@ Gunakan akun demo di bawah ini untuk login:
 
 ## 📸 Tampilan Aplikasi
 
-*(Di sini Anda bisa menambahkan screenshot tampilan utama aplikasi Anda)*
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-</head>
-<body>
-
-<img src="https://via.placeholder.com/800x450.png?text=Screenshot+Aplikasi+Anda" alt="Screenshot Dashboard" style="width:80%;">
-
-</body>
-</html>
+![Tampilan Aplikasi](screenshots/dashboard.png)
+![Tampilan Aplikasi](screenshots/pantau_tanaman.png)
 
 ## 🚀 Fitur Utama
 
@@ -72,30 +56,30 @@ Pastikan perangkat Anda sudah terinstal:
 #### 2. Langkah Instalasi
 
 1.  **Clone repositori ini:**
-    ````bash
-    git clone [https://github.com/URL-repositori-anda.git](https://github.com/URL-repositori-anda.git)
-    cd nama-folder-proyek
-    ````
+    ```bash
+    git clone [https://github.com/RidhoChaerullah/UAS-ParaPetani.git](https://github.com/RidhoChaerullah/UAS-ParaPetani.git)
+    cd UAS-ParaPetani
+    ```
 
 2.  **Instal dependensi Composer:**
-    ````bash
+    ```bash
     composer install
-    ````
+    ```
 
 3.  **Instal dependensi NPM:**
-    ````bash
+    ```bash
     npm install
-    ````
+    ```
 
 4.  **Buat file `.env`:**
     Salin file `.env.example` menjadi `.env`.
-    ````bash
+    ```bash
     cp .env.example .env
-    ````
+    ```
 
 5.  **Konfigurasi file `.env`:**
     Buka file `.env` dan sesuaikan konfigurasi database Anda. **PENTING:** Masukkan juga API Key Anda dari NewsAPI dan OpenWeather.
-    ````.env
+    ```.env
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -106,29 +90,29 @@ Pastikan perangkat Anda sudah terinstal:
     # Masukkan API Key Anda di sini
     NEWS_API_KEY=KEY_DARI_NEWSAPI
     OPENWEATHER_API_KEY=KEY_DARI_OPENWEATHER
-    ````
+    ```
 
 6.  **Generate Application Key:**
-    ````bash
+    ```bash
     php artisan key:generate
-    ````
+    ```
 
 7.  **Jalankan Migrasi Database:**
     Perintah ini akan membuat semua tabel yang dibutuhkan di database Anda.
-    ````bash
+    ```bash
     php artisan migrate
-    ````
+    ```
 
 8.  **Compile Aset Frontend:**
-    ````bash
+    ```bash
     npm run dev
-    ````
+    ```
     *(Gunakan `npm run build` untuk versi produksi)*
 
 9.  **Jalankan Server Lokal:**
-    ````bash
+    ```bash
     php artisan serve
-    ````
+    ```
 
 Aplikasi sekarang seharusnya berjalan di **http://127.0.0.1:8000**.
 
@@ -139,11 +123,3 @@ Aplikasi sekarang seharusnya berjalan di **http://127.0.0.1:8000**.
 Proyek ini dibuat sebagai bagian dari tugas Ujian Akhir Semester mata kuliah Pemrograman Web Lanjut.
 
 **Institut Teknologi PLN (ITPLN)** - [https://itpln.ac.id/](https://itpln.ac.id/)
-
----
-
-### Saran:
--   Pastikan path `public/img/ZeroHunger.png` benar relatif terhadap lokasi file `README.md` Anda. Jika tidak, Anda perlu menyesuaikannya.
--   Ganti `https://github.com/URL-repositori-anda` dengan URL repositori GitHub Anda yang sebenarnya pada bagian *Build Status*.
-
-Sekarang, `README.md` Anda akan menampilkan logo web Anda dan mencantumkan backlink ke website kampus di bagian bawah.
