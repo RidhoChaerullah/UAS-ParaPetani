@@ -1,61 +1,149 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://regumawar.wuaze.com/" target="_blank"><img src="public/img/ZeroHunger.png" width="200" alt="Logo Sistem Pertanian"></a></p>
+
+<h1 align="center">Sistem Pertanian Terpadu (Smart Farming System)</h1>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <a href="https://github.com/URL-repositori-anda/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+    <a href="#"><img src="https://img.shields.io/badge/PHP-8.4.1-777BB4?style=flat-square&logo=php" alt="PHP Version"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Laravel-12.21.0-FF2D20?style=flat-square&logo=laravel" alt="Laravel Version"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Version"></a>
 </p>
 
-## About Laravel
+Proyek ini adalah aplikasi web yang dibangun untuk memenuhi Ujian Akhir Semester mata kuliah Pemrograman Web Lanjut. Dengan mengacu pada tujuan SDGs ke-2 (Zero Hunger), aplikasi ini berfungsi sebagai "Sistem Pemantauan Cuaca, Berita Pertanian dan Manajemen Tanaman untuk Para Petani".
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ✨ Demo Langsung
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Anda dapat mencoba aplikasi secara langsung melalui tautan berikut:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**URL:** **https://regumawar.wuaze.com/**
 
-## Learning Laravel
+Gunakan akun demo di bawah ini untuk login:
+- **Email:** `akuncoba@gmail.com`
+- **Password:** `akuncoba`
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📸 Tampilan Aplikasi
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+*(Di sini Anda bisa menambahkan screenshot tampilan utama aplikasi Anda)*
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<img src="https://via.placeholder.com/800x450.png?text=Screenshot+Aplikasi+Anda" alt="Screenshot Dashboard" style="width:80%;">
 
-## Laravel Sponsors
+</body>
+</html>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🚀 Fitur Utama
 
-### Premium Partners
+-   📰 **Berita Pertanian:** Menampilkan berita terkini seputar dunia pertanian yang diambil langsung dari **NewsAPI**.
+-   🌽 **Manajemen Tanaman:** Memantau dan mengelola data tanaman pangan (saat ini mendukung Padi dan Jagung).
+-   🌦️ **Saran Berdasarkan Cuaca:** Memberikan rekomendasi pengolahan tanaman berdasarkan data cuaca real-time dari **OpenWeather API**.
+-   👤 **Manajemen Akun:** Fitur lengkap untuk Registrasi, Login, serta mengubah dan menghapus akun pengguna.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🛠️ Teknologi yang Digunakan
 
-## Contributing
+-   **Backend:** PHP 8.4.1, Laravel 12.21.0
+-   **Frontend:** Tailwind CSS
+-   **Database:** MySQL
+-   **API Eksternal:**
+    -   https://newsapi.org/ untuk data berita.
+    -   https://openweathermap.org/api untuk data cuaca.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## ⚙️ Petunjuk Instalasi Lokal
 
-## Code of Conduct
+Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+#### 1. Prasyarat
+Pastikan perangkat Anda sudah terinstal:
+-   PHP >= 8.4
+-   Composer 2.x
+-   Node.js & NPM
+-   Database (misalnya: MySQL, MariaDB)
 
-## Security Vulnerabilities
+#### 2. Langkah Instalasi
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1.  **Clone repositori ini:**
+    ````bash
+    git clone [https://github.com/URL-repositori-anda.git](https://github.com/URL-repositori-anda.git)
+    cd nama-folder-proyek
+    ````
 
-## License
+2.  **Instal dependensi Composer:**
+    ````bash
+    composer install
+    ````
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+3.  **Instal dependensi NPM:**
+    ````bash
+    npm install
+    ````
+
+4.  **Buat file `.env`:**
+    Salin file `.env.example` menjadi `.env`.
+    ````bash
+    cp .env.example .env
+    ````
+
+5.  **Konfigurasi file `.env`:**
+    Buka file `.env` dan sesuaikan konfigurasi database Anda. **PENTING:** Masukkan juga API Key Anda dari NewsAPI dan OpenWeather.
+    ````.env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nama_database_anda
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+    # Masukkan API Key Anda di sini
+    NEWS_API_KEY=KEY_DARI_NEWSAPI
+    OPENWEATHER_API_KEY=KEY_DARI_OPENWEATHER
+    ````
+
+6.  **Generate Application Key:**
+    ````bash
+    php artisan key:generate
+    ````
+
+7.  **Jalankan Migrasi Database:**
+    Perintah ini akan membuat semua tabel yang dibutuhkan di database Anda.
+    ````bash
+    php artisan migrate
+    ````
+
+8.  **Compile Aset Frontend:**
+    ````bash
+    npm run dev
+    ````
+    *(Gunakan `npm run build` untuk versi produksi)*
+
+9.  **Jalankan Server Lokal:**
+    ````bash
+    php artisan serve
+    ````
+
+Aplikasi sekarang seharusnya berjalan di **http://127.0.0.1:8000**.
+
+---
+
+## 🎓 Tugas Ujian Akhir Semester - Pemrograman Web Lanjut
+
+Proyek ini dibuat sebagai bagian dari tugas Ujian Akhir Semester mata kuliah Pemrograman Web Lanjut.
+
+**Institut Teknologi PLN (ITPLN)** - [https://itpln.ac.id/](https://itpln.ac.id/)
+
+---
+
+### Saran:
+-   Pastikan path `public/img/ZeroHunger.png` benar relatif terhadap lokasi file `README.md` Anda. Jika tidak, Anda perlu menyesuaikannya.
+-   Ganti `https://github.com/URL-repositori-anda` dengan URL repositori GitHub Anda yang sebenarnya pada bagian *Build Status*.
+
+Sekarang, `README.md` Anda akan menampilkan logo web Anda dan mencantumkan backlink ke website kampus di bagian bawah.
